@@ -93,7 +93,7 @@ Ahorcado.prototype.dibujar = function()
 							dibujo.stroke();
 							dibujo.closePath();
 
-							pista.innerText = palabra;
+							pista.textContent = palabra;
 
 						}
 					}
@@ -191,5 +191,5 @@ function mostrarPista(espacio)
 			texto += "_ ";
 		}
 	}
-	pista.innerText = texto;
+	pista.textContent = texto;
 }

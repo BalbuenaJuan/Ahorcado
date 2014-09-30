@@ -1,11 +1,14 @@
 body
 {
-	background: #7BB2EE;
+	background: #7BB2EE !important;
+	text-align: center;
 }
 
-.inline
+.boton
 {
-	display: inline-block;
+	border-radius: 3px;
+	height: 25px;
+	outline: 0;
 }
 
 .espacio
@@ -15,6 +18,22 @@ body
 
 .flechita
 {
-	font-size: 2em;
 	color: white;
+	font-size: 2em;
+}
+
+.inline
+{
+	display: inline-block;
+}
+
+.text
+{
+	border-radius: 3px;
+	height: 25px;
+}
+
+.text-body-head
+{
+	text-shadow: .5px 1px 1px #FFF5F5;
 }
