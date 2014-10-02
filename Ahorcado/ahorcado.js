@@ -93,14 +93,13 @@ Ahorcado.prototype.dibujar = function()
 							dibujo.stroke();
 							dibujo.closePath();
 
-							pista.textContent = palabra;
-
-						}
+						
 					}
 				}
-		
 			}
+		
 		}
+	}
 }
 
 Ahorcado.prototype.trazar = function()
@@ -109,6 +108,7 @@ Ahorcado.prototype.trazar = function()
 	if(this.intentos >= this.maximo)
 	{
 		this.vivo = false;
+		pista.textContent = palabra;
 	}
 	this.dibujar();
 }
